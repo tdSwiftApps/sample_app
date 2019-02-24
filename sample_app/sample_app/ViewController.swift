@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         self.view.addSubview(textLabel)
         
         print(textLabel.text!)
+        print(textLabel.text!)
     }
 }
 
