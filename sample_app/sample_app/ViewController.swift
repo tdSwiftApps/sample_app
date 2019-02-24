@@ -18,8 +18,8 @@ class ViewController: UIViewController {
         textLabel.layer.position = CGPoint(x: self.view.center.x, y: self.view.center.y)
         textLabel.text = "sample"
         self.view.addSubview(textLabel)
+        
+        print(textLabel.text!)
     }
-
-
 }
 
